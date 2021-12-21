@@ -31,11 +31,11 @@ It's easy to interpret and doesn't require extended input capabilities. It's eas
 _______________________________________________________________________________________________________________________________________________
 
 First I chose 'liblinear' instead of 'lbfgs'
-  Because liblinear is much better algorithm for small data than default solver 'lbfgs'
+Because liblinear is much better algorithm for small data than default solver 'lbfgs'
   
 Second I defined 'C = 20'
-  The larger the value of C, the less normalization and the higher the possibility of overfitting.
-  I tried several times to get most accurate model, and the optimum value of C was larger than 15.
+The larger the value of C, the less normalization and the higher the possibility of overfitting.
+I tried several times to get most accurate model, and the optimum value of C was larger than 15.
   
 Thrid I defined 'random_stat = 0' to prevent accuracy fluctuation.
 
