@@ -30,10 +30,10 @@ Because Logistic regression is efficient and does not require a huge amount of c
 It's easy to interpret and doesn't require extended input capabilities. It's easy to normalize, and it gives a well-adjusted predicted probability.
 _______________________________________________________________________________________________________________________________________________
 
-First I chose 'liblinear' instead of 'lbfgs'
-Because liblinear is much better algorithm for small data than default solver 'lbfgs'
+First I chose 'liblinear' instead of 'lbfgs'.
+Because liblinear is much better algorithm for small data than default solver 'lbfgs'.
   
-Second I defined 'C = 20'
+Second I defined 'C = 20'.
 The larger the value of C, the less normalization and the higher the possibility of overfitting.
 I tried several times to get most accurate model, and the optimum value of C was larger than 15.
   
