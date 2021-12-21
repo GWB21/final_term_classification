@@ -37,7 +37,7 @@ Second I defined 'C = 20'.
 The larger the value of C, the less normalization and the higher the possibility of overfitting.
 I tried several times to get most accurate model, and the optimum value of C was larger than 15.
   
-Thrid I defined 'random_stat = 0' to prevent accuracy fluctuation.
+Thrid I defined 'random_state = 0' to prevent accuracy fluctuation.
 
 
 
